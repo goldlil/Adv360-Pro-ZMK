@@ -88,7 +88,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans         &trans         &trans             &trans           &trans         &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans         &kp RC(RG(F))  &kp RC(RG(U))      &kp RC(RG(Y))    &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp RC(RG(M))  &kp RC(RG(N))  &kp RC(RG(E))      &kp RC(RG(I))    &kp RC(RG(O))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp RC(RG(M))  &kp RC(RG(N))  &kp RC(RG(E))      &slack_macro    &kp RC(RG(O))  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans         &kp RG(RC(H))  &kp LC(LG(LS(C)))  &kp RC(RG(DOT))  &kp RC(RG(K))  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                 &trans         &trans             &trans           &trans         &trans
             >;
