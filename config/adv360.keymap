@@ -67,11 +67,11 @@
 
         characters {
             bindings = <
-&kp F1  &kp F2           &kp HASH   &kp ASTERISK   &kp ASTRK          &kp F6            &tog 0                                                        &mo 2                    &kp F7  &kp F8         &kp F9            &kp F10  &kp F11  &kp F12
-&trans  &trans           &kp MINUS  &kp DOLLAR     &kp UNDER          &kp GRAVE         &trans                                                        &trans                   &trans  &trans         &trans            &trans   &trans   &trans
-&trans  &kp QUESTION     &kp SLASH  &kp KP_EQUAL   &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &trans  &trans  &trans      &trans    &trans                  &trans                   &trans  &trans         &trans            &trans   &trans   &trans
-&trans  &kp EXCLAMATION  &kp COLON  &kp SEMICOLON  &kp GRAVE          &kp PERCENT                       &trans      &trans                                                     &trans  &trans         &trans            &trans   &trans   &trans
-&trans  &kp CARET        &trans     &kp PIPE       &trans                               &trans  &trans  &trans      &kp PLUS  &kp LS(LA(LEFT_ARROW))  &kp LS(LA(RIGHT_ARROW))          &kp LESS_THAN  &kp GREATER_THAN  &trans   &trans   &trans
+&kp F1  &kp F2           &kp HASH   &kp ASTERISK            &kp ASTRK          &kp F6            &tog 0                                                        &mo 2                    &kp F7  &kp F8     &kp F9  &kp F10   &kp F11  &kp F12
+&trans  &trans           &kp MINUS  &kp DOLLAR              &kp UNDER          &kp PLUS          &trans                                                        &trans                   &trans  &trans     &trans  &trans    &trans   &trans
+&trans  &kp QUESTION     &kp SLASH  &kp KP_EQUAL            &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &trans  &trans  &trans      &trans    &trans                  &trans                   &trans  &kp PIPE   &trans  &trans    &trans   &trans
+&trans  &kp EXCLAMATION  &kp COLON  &kp SEMICOLON           &kp GRAVE          &kp PERCENT                       &trans      &trans                                                     &trans  &kp CARET  &trans  &kp PIPE  &trans   &trans
+&trans  &trans           &trans     &kp LS(LA(LEFT_ARROW))  &kp LS(LA(RIGHT))                    &trans  &trans  &trans      &kp PLUS  &kp LS(LA(LEFT_ARROW))  &kp LS(LA(RIGHT_ARROW))          &trans     &trans  &trans    &trans   &trans
             >;
         };
 
