@@ -51,5 +51,5 @@
     label = "slack_macrooo";
     #binding-cells = <0>;
     bindings =
-        <&macro_tap RC(RG(E))>, <&macro_wait_time 200>, <&macro_tap &kp RG(K)>;
-};
+        <&macro_tap &kp RC(RG(E))>, <&macro_wait_time 200>, <&macro_tap &kp RG(K)>;
+  };
