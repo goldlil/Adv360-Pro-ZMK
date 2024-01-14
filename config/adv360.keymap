@@ -26,7 +26,7 @@
           flavor = "tap-preferred";
           bindings = <&kp>, <&kp>;
       };
-      
+
       tlb: toggle_layer_balanced {
             compatible = "zmk,behavior-hold-tap";
             label = "TOGLE_LAYER_BALANCED";
@@ -44,6 +44,18 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             flavor = "balanced";
+        };
+    };
+
+    macros {
+        zed_em_kay: zed_em_kay {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp Z &kp M &kp K>
+                , <&macro_release &kp LSHFT>
+                ;
         };
     };
 
