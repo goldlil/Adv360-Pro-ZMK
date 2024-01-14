@@ -17,9 +17,19 @@
             bindings = <&kp RET>;
         };
 
-        zed_em_kay: zed_em_kay {
+        slack_macro: slack_macro {
             compatible = "zmk,behavior-macro";
-            label = "zdmk";
+            label = "slack_macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap &kp RC(RG(E))>,
+                <&macro_wait_time 200>,
+                <&macro_tap &kp RG(K)>;
+        };
+
+        slack_macro1: slack_macro1 {
+            compatible = "zmk,behavior-macro";
+            label = "slack_macro1";
             #binding-cells = <0>;
             bindings =
                 <&macro_tap>,
