@@ -22,9 +22,11 @@
             label = "slack_macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_tap &kp RC(RG(E))>,
+                <&macro_tap>,
+                <&kp RC(RG(E))>,
                 <&macro_wait_time 200>,
-                <&macro_tap &kp RG(K)>;
+                <&macro_tap>,
+                <&kp RG(K)>;
         };
 
         slack_macro1: slack_macro1 {
@@ -119,11 +121,11 @@
 
         keypad-new {
             bindings = <
-&trans  &trans  &trans           &trans  &trans  &trans  &trans                                                  &trans               &trans  &trans        &trans           &trans  &trans  &trans
-&trans  &trans  &kp N7           &kp N8  &kp N9  &trans  &trans                                                  &trans               &trans  &trans        &trans           &trans  &trans  &trans
-&trans  &trans  &kp N4           &kp N5  &kp N6  &trans  &trans  &trans  &trans      &trans  &trans              &trans               &trans  &trans        &trans           &trans  &trans  &trans
-&trans  &trans  &kp KP_NUMBER_1  &kp N2  &kp N3  &trans                  &trans      &trans                                           &trans  &trans        &trans           &trans  &trans  &trans
-&trans  &trans  &trans           &trans  &trans          &trans  &trans  &trans      &trans  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)          &kp LG(BSPC)  &kp KP_NUMBER_0  &trans  &trans  &kp LS(ENTER)
+&trans  &trans  &trans           &trans              &trans               &trans  &trans                                                  &trans               &trans  &trans        &trans           &trans  &trans  &trans
+&trans  &trans  &kp N7           &kp N8              &kp N9               &trans  &trans                                                  &trans               &trans  &trans        &trans           &trans  &trans  &trans
+&trans  &trans  &kp N4           &kp N5              &kp N6               &trans  &trans  &trans  &trans      &trans  &trans              &trans               &trans  &trans        &trans           &trans  &trans  &trans
+&trans  &trans  &kp KP_NUMBER_1  &kp N2              &kp N3               &trans                  &trans      &trans                                           &trans  &trans        &trans           &trans  &trans  &trans
+&trans  &trans  &trans           &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)          &trans  &trans  &trans      &trans  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)          &kp LG(BSPC)  &kp KP_NUMBER_0  &trans  &trans  &kp LS(ENTER)
             >;
         };
     };
