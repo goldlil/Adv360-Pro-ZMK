@@ -56,11 +56,11 @@
 
         default_layer {
             bindings = <
-&kp C_VOLUME_UP  &kp N1  &kp N2     &kp UP_ARROW    &kp N4     &kp N5  &tog 0                                                                     &mo 2                  &kp N6  &kp N7        &kp DOWN           &kp N9             &kp N0     &kp MINUS
-&kp C_VOL_DN     &kp Q   &kp W      &kp L           &kp P      &kp B   &none                                                                      &kp F18                &kp J   &kp F         &kp U              &kp Y              &kp P      &kp BSLH
-&kp ESC          &kp A   &kp R      &kp S           &kp T      &kp G   &none          &kp LCTRL    &kp LALT              &kp LGUI   &kp LEFT_ALT  &kp F12                &kp M   &tlb 2 N      &tlb 4 E           &kp I              &kp O      &kp RIGHT
-&kp LSHFT        &kp Z   &kp V      &tlb 3 C        &kp D      &kp X                               &none                 &none                                           &kp Q   &kp H         &tlb 1 ESCAPE      &kp KP_DOT         &kp K      &kp LEFT_SHIFT
-&kp Q            &kp H   &kp LG(E)  &kp LEFT_ARROW  &kp RIGHT          &kp BACKSPACE  &kp PAGE_UP  &kp LEFT_COMMAND      &kp COMMA  &kp ENTER     &thb LEFT_SHIFT SPACE          &kp KP_COMMA  &kp LA(BACKSPACE)  &kp LG(BACKSPACE)  &kp COMMA  &kp ENTER
+&kp C_VOLUME_UP  &kp N1  &kp N2     &kp UP_ARROW    &kp N4     &kp N5  &tog 0                                                                     &mo 2                  &kp N6  &kp N7     &kp DOWN           &kp N9             &kp N0     &kp MINUS
+&kp C_VOL_DN     &kp Q   &kp W      &kp L           &kp P      &kp B   &none                                                                      &kp F18                &kp J   &kp F      &kp U              &kp Y              &kp P      &kp BSLH
+&kp ESC          &kp A   &kp R      &kp S           &kp T      &kp G   &none          &kp LCTRL    &kp LALT              &kp LGUI   &kp LEFT_ALT  &kp F12                &kp M   &tlb 2 N   &tlb 4 E           &kp I              &kp O      &kp RIGHT
+&kp LSHFT        &kp Z   &kp V      &tlb 3 C        &kp D      &kp X                               &none                 &none                                           &kp Q   &kp H      &tlb 1 ESCAPE      &kp KP_DOT         &kp K      &kp LEFT_SHIFT
+&kp Q            &kp H   &kp LG(E)  &kp LEFT_ARROW  &kp RIGHT          &kp BACKSPACE  &kp PAGE_UP  &kp LEFT_COMMAND      &kp COMMA  &kp ENTER     &thb LEFT_SHIFT SPACE          &kp COMMA  &kp LA(BACKSPACE)  &kp LG(BACKSPACE)  &kp COMMA  &kp ENTER
             >;
         };
 
@@ -88,7 +88,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans         &trans         &trans             &trans           &trans         &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans         &kp RC(RG(F))  &kp RC(RG(U))      &kp RC(RG(Y))    &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp RC(RG(M))  &kp RC(RG(N))  &kp RC(RG(E))      &slack_macro1     &kp RC(RG(O))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp RC(RG(M))  &kp RC(RG(N))  &kp RC(RG(E))      &slack_macro1    &kp RC(RG(O))  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans         &kp RG(RC(H))  &kp LC(LG(LS(C)))  &kp RC(RG(DOT))  &kp RC(RG(K))  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                 &trans         &trans             &trans           &trans         &trans
             >;
