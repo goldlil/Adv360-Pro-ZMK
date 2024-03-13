@@ -67,11 +67,11 @@
 
         characters {
             bindings = <
-&kp F1  &kp F2           &kp HASH   &kp ASTERISK            &kp ASTRK          &kp F6            &tog 0                                                        &mo 2                    &kp F7  &kp F8     &kp F9  &kp F10   &kp F11  &kp F12
-&trans  &trans           &kp MINUS  &kp DOLLAR              &kp UNDER          &kp PLUS          &trans                                                        &trans                   &trans  &trans     &trans  &trans    &trans   &trans
-&trans  &kp QUESTION     &kp SLASH  &kp KP_EQUAL            &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &trans  &trans  &trans      &trans    &trans                  &trans                   &trans  &kp PIPE   &trans  &trans    &trans   &trans
-&trans  &kp EXCLAMATION  &kp COLON  &kp SEMICOLON           &kp GRAVE          &kp PERCENT                       &trans      &trans                                                     &trans  &kp CARET  &trans  &kp PIPE  &trans   &trans
-&trans  &trans           &trans     &kp LS(LA(LEFT_ARROW))  &kp LS(LA(RIGHT))                    &trans  &trans  &trans      &kp PLUS  &kp LS(LA(LEFT_ARROW))  &kp LS(LA(RIGHT_ARROW))          &trans     &trans  &trans    &trans   &trans
+&kp F1  &kp F2           &kp HASH       &kp ASTERISK            &kp ASTRK          &kp F6            &tog 0                                                        &mo 2                    &kp F7  &kp F8     &kp F9  &kp F10   &kp F11  &kp F12
+&trans  &trans           &kp MINUS      &kp DOLLAR              &kp UNDER          &kp PLUS          &trans                                                        &trans                   &trans  &trans     &trans  &trans    &trans   &trans
+&trans  &kp QUESTION     &kp SLASH      &kp KP_EQUAL            &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &trans  &trans  &trans      &trans    &trans                  &trans                   &trans  &kp PIPE   &trans  &trans    &trans   &trans
+&trans  &kp EXCLAMATION  &kp COLON      &kp COMMA               &kp GRAVE          &kp PERCENT                       &trans      &trans                                                     &trans  &kp CARET  &trans  &kp PIPE  &trans   &trans
+&trans  &trans           &kp SEMICOLON  &kp LS(LA(LEFT_ARROW))  &kp LS(LA(RIGHT))                    &trans  &trans  &trans      &kp PLUS  &kp LS(LA(LEFT_ARROW))  &kp LS(LA(RIGHT_ARROW))          &trans     &trans  &trans    &trans   &trans
             >;
         };
 
@@ -97,11 +97,11 @@
 
         keypad-new {
             bindings = <
-&trans  &trans  &trans           &trans              &trans               &trans  &trans                                                                 &trans         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp N7           &kp N8              &kp N9               &trans  &trans                                                                 &trans         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp N4           &kp N5              &kp N6               &trans  &trans             &trans           &trans      &trans  &trans         &trans         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp KP_NUMBER_1  &kp N2              &kp N3               &trans                                      &trans      &trans                                &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans           &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)          &kp LG(BACKSPACE)  &kp KP_NUMBER_0  &trans      &trans  &kp LS(ENTER)  &kp LS(ENTER)          &trans  &trans  &trans  &trans  &kp LS(ENTER)
+&trans  &trans     &trans           &kp LG(V)           &trans               &trans     &trans                                                                 &trans         &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &kp N7           &kp N8              &kp N9               &trans     &trans                                                                 &trans         &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &kp LG(A)  &kp N4           &kp N5              &kp N6               &kp LG(C)  &trans             &trans           &trans      &trans  &trans         &trans         &kp LG(V)  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &kp KP_NUMBER_1  &kp N2              &kp N3               &trans                                         &trans      &trans                                &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans           &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)             &kp LG(BACKSPACE)  &kp KP_NUMBER_0  &trans      &trans  &kp LS(ENTER)  &kp LS(ENTER)             &trans  &trans  &trans  &trans  &kp LS(ENTER)
             >;
         };
     };
