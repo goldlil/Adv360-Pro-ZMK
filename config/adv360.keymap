@@ -57,7 +57,7 @@
 
         default_layer {
             bindings = <
-&kp C_VOLUME_UP  &kp N1   &kp LG(L)  &kp UP_ARROW    &kp N4     &kp N5  &tog 0                                                                         &mo 2                  &kp N6  &kp N7     &kp DOWN           &kp TAB            &kp N0                &kp MINUS
+&kp C_VOLUME_UP  &kp N1   &kp LG(L)  &kp UP_ARROW    &kp N4     &kp N5  &tog 0                                                                         &mo 5                  &kp N6  &kp N7     &kp DOWN           &kp TAB            &kp N0                &kp MINUS
 &kp C_VOL_DN     &kp TAB  &kp W      &kp L           &kp P      &kp B   &none                                                                          &kp F18                &kp J   &kp F      &kp U              &kp Y              &kp LG(LEFT_BRACKET)  &kp BSLH
 &kp ESC          &kp A    &kp R      &kp S           &kp T      &kp G   &caps_word     &kp LCTRL    &kp LALT              &kp LGUI       &kp LEFT_ALT  &kp F12                &kp M   &tlb 2 N   &tlb 4 E           &kp I              &kp O                 &kp RIGHT
 &kp LSHFT        &kp Z    &kp V      &tlb 3 C        &kp D      &kp X                               &none                 &none                                               &kp Q   &kp H      &tlb 1 ESCAPE      &kp KP_DOT         &kp K                 &kp LEFT_SHIFT
@@ -104,14 +104,15 @@
 &trans  &trans     &trans           &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)             &kp LG(BACKSPACE)  &kp KP_NUMBER_0  &trans      &trans  &kp LS(ENTER)  &kp LS(ENTER)                        &kp LG(RIGHT_BRACKET)  &trans  &trans  &trans  &kp LS(ENTER)
             >;
         };
+
         mod {
-      bindings = <
-        &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none                                                                     &trans                 &none        &none        &none        &none &none &none
-        &none &none        &none        &none        &none        &none        &bootloader                                                               &bootloader            &none        &none        &none        &none &none &none
-        &none &none        &none        &none        &none        &none        &none                   &none &none &bt BT_CLR &none                      &rgb_ug RGB_MEFS_CMD 5 &none        &none        &none        &none &none &none
-        &none &none        &none        &none        &macro_ver   &none                                      &none &none                                                        &none        &none        &none        &none &none &none
-        &none &none        &none        &none        &none                                       &none &none &none &none      &bl BL_TOG &rgb_ug RGB_TOG                                     &bl BL_INC   &bl BL_DEC   &none &none &none
-      >;
-    };
+            bindings = <
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                  &trans                  &none  &none       &none       &none  &none  &none
+&none  &none         &none         &none         &none         &none         &bootloader                                            &bootloader             &none  &none       &none       &none  &none  &none
+&none  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none       &none  &none  &none
+&none  &none         &none         &none         &macro_ver    &none                             &none      &none                                           &none  &none       &none       &none  &none  &none
+&none  &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_INC  &bl BL_DEC  &none  &none  &none
+            >;
+        };
     };
 };
